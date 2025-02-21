@@ -38,7 +38,7 @@ export function moduleRules(environment: Environment): RuleSetRule[] {
 						return pathInfo.filename;
 					}
 
-					return `css/${match[2]}.css`;
+					return `css/${match[1]}.css`;
 				},
 			},
 			use: [
