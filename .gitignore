@@ -1,0 +1,14 @@
+node_modules/
+.swc/
+.eslintcache
+dist/
+**/yarn-error.log
+
+# Yarn-related ignores (not using Zero-Installs)
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

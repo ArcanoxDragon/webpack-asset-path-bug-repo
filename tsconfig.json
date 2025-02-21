@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"rootDir": "."
+	},
+	"ts-node": {
+		"swc": true
+	},
+	"extends": "./tsconfig.base.json",
+	"include": [
+		"build",
+		"webpack.config.*"
+	],
+	"exclude": [
+		"node_modules/**/*",
+		"**/node_modules/**/*"
+	]
+}
